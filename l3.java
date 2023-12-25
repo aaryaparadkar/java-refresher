@@ -19,18 +19,37 @@ public class l3 {
         // }
 
         // else if ladder
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter first number: ");
-        int x = sc.nextInt();
-        System.out.print("Enter second number: ");
-        int y = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter first number: ");
+        // int x = sc.nextInt();
+        // System.out.print("Enter second number: ");
+        // int y = sc.nextInt();
 
-        if (x == y) {
-            System.out.println("Both are equal");
-        } else if (x > y) {
-            System.out.println("x > y");
-        } else {
-            System.out.println("y > x");
+        // if (x == y) {
+        // System.out.println("Both are equal");
+        // } else if (x > y) {
+        // System.out.println("x > y");
+        // } else {
+        // System.out.println("y > x");
+        // }
+
+        // switch case
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your choice: ");
+        int btn = sc.nextInt();
+
+        switch (btn) {
+            case 1:
+                System.out.println("Hello!");
+                break;
+            case 2:
+                System.out.println("Namaste!");
+                break;
+            case 3:
+                System.out.println("Bonjour!");
+                break;
+            default:
+                System.out.println("Invalid Input");
         }
     }
 }
