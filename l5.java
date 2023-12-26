@@ -56,19 +56,31 @@ public class l5 {
         // }
 
         // 180 rotated inverted half pyramid
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter the number of rows: ");
+        // int n = sc.nextInt();
+
+        // for (int i = 1; i <= n; i++) {
+        // // inner loop to print space
+        // for (int j = 1; j <= n - i; j++) {
+        // System.out.print(" ");
+        // }
+
+        // // inner loop to print star
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // half pyramid with numbers
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            // inner loop to print space
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
-            }
-
-            // inner loop to print star
             for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+                System.out.print(j + " ");
             }
             System.out.println();
         }
