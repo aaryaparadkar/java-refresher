@@ -74,12 +74,24 @@ public class l5 {
         // }
 
         // half pyramid with numbers
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter the number of rows: ");
+        // int n = sc.nextInt();
+
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(j + " ");
+        // }
+        // System.out.println();
+        // }
+
+        // inverted half pyramid with numbers
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of rows: ");
+        System.out.print("Enter the number of columns: ");
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= n - i + 1; j++) {
                 System.out.print(j + " ");
             }
             System.out.println();
